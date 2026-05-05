@@ -1,23 +1,24 @@
+tap "homebrew/bundle"
+tap "homebrew/services"
+brew "vim"
+brew "zsh"
 brew "git"
-brew "nvm"
+brew "node"
 brew "wget"
 brew "ffmpeg"
 brew "tldr"
 brew "imagemagick"
 brew "python"
 brew "htop"
-
-# Browsers
+brew "gemini-cli"
+brew "opencode"
 cask "brave-browser"
 cask "google-chrome"
 cask "firefox"
-
-# Terminal & Text Editors
+cask "zen"
 cask "kitty"
 cask "visual-studio-code"
 cask "coteditor"
-
-# Productivity & Utilities
 cask "rectangle"
 cask "maccy"
 cask "alt-tab"
@@ -27,37 +28,40 @@ cask "keepingyouawake"
 cask "selfcontrol"
 cask "latest"
 cask "appcleaner"
-
-# Mouse & Keyboard
 cask "linearmouse"
 cask "mac-mouse-fix"
 cask "karabiner-elements"
 cask "middleclick"
-
-# Media
 cask "vlc"
 cask "iina"
 cask "audacity"
-cask "4k-video-downloader"
-
-# Files & Storage
 cask "keka"
 cask "google-drive"
 cask "qbittorrent"
 cask "android-file-transfer"
-
-# Display
 cask "betterdisplay"
-
-# Network & Security
 cask "protonvpn"
 cask "cloudflare-warp"
-
-# Communication & AI
 cask "discord"
 cask "chatgpt"
 cask "claude"
-brew "google-gemini"
-
-# Dev Tools
-brew "android-platform-tools"
+cask "ghostty"
+cask "google-gemini"
+cask "android-platform-tools"
+cask "clipgrab"
+cask "localsend"
+cask "affinity"
+cask "blender"
+cask "capcut"
+cask "obs"
+vscode "pmndrs.pmndrs"
+vscode "esbenp.prettier-vscode"
+vscode "ms-python.vscode-pylancev"
+vscode "raunofreiberg.vesper"
+vscode "vscode-icons-team.vscode-icons"
+vscode "redhat.vscode-xml"
+vscode "formulahendry.code-runner"
+vscode "ritwickdey.LiveServer"
+vscode "jeff-hykin.polacode-2019"
+vscode "ms-python.debugpy"
+vscode "ms-python.vscode-python-envs"
