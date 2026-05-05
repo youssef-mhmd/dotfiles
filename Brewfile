@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
 brew "vim"
 brew "zsh"
 brew "git"
